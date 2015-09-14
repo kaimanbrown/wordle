@@ -1,0 +1,15 @@
+.buildpath
+.project
+.settings
+/vendor/
+node_modules
+bower_components
+lib
+.DS_Store
+thumbs.db
+*.log
+*.cfg
+css/styles.css
+css/styles.min.css
+js/functions.min.js
+.zip

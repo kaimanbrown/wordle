@@ -1,0 +1,9 @@
+{
+  "name": "twincess",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "lesshat": "latest",
+    "jquery": "~2.1.4"
+  }
+}

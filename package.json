@@ -1,0 +1,24 @@
+{
+  "name": "e3-frontend-starter-kit",
+  "version": "0.2.0",
+  "private": true,
+  "devDependencies": {
+    "grunt-bower-task": "^0.4.0"
+  },
+  "dependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscpd": "0.0.10",
+    "grunt-notify": "^0.3.1",
+    "grunt-open": "^0.2.3"
+  }
+}

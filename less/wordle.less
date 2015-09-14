@@ -1,0 +1,46 @@
+.jumble-text-block{
+	text-align: left;
+	@wordle-color: #red;
+	@-webkit-keyframes bounce {
+		0% { transform: scale(0); opacity: 0; }
+		50% { transform: scale(0.8); opacity: 0.5; }		
+		75% { transform: scale(1.2); opacity: 1; }
+		90% { transform: scale(0.95); }
+		100% { transform: scale(1);  opacity: 1; }
+	}
+	@keyframes bounce {
+		0% { transform: scale(0); opacity: 0; }
+		50% { transform: scale(0.8); opacity: 0.5; }		
+		75% { transform: scale(1.2); opacity: 1; }
+		90% { transform: scale(0.95); }
+		100% { transform: scale(1);  opacity: 1; }
+	}
+	&.active{
+		> div{
+			span{
+				.animation(1s bounce linear forwards);
+			}
+		}
+	}
+	> div{
+		position: relative;			
+		color: #fff;	
+		margin-right: 5px;
+		.transition(all 0.5s ease);			
+		span{
+			opacity: 0;
+			.scale(0);
+		}
+		display: inline;
+
+		&:hover, &.active{
+			color: @wordle-color;						
+		}
+		&.color{
+			color: @wordle-color;
+			&:hover{
+				color: #fff;
+			}	
+		}		
+	}
+}
